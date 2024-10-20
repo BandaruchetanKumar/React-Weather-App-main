@@ -33,7 +33,7 @@ npm install
 
 **Start the application:**
 
-npm start
+npm start or npm run dev
 
 ### Usage
 Open the application in your browser.
