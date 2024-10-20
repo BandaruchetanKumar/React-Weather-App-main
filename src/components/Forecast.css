@@ -1,0 +1,52 @@
+/* Forecast.css */
+
+.forecast-container {
+    padding: 20px;
+    background-color: #d4701e; /* Sky blue background */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.forecast-title {
+    font-weight: bold;
+    font-size: 1.0rem; /* Larger font size */
+    color: #cfe0f1; /* Blue color for the title */
+}
+
+.forecast-divider {
+    margin: 10px 0;
+    border: 1px solid #2b6cb0; /* Blue color for the divider */
+}
+
+.forecast-item {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s;
+    padding: 10px;
+    border: 1px solid #6093d6; /* Light border */
+    border-radius: 8px;
+    background-color: #43a6be; /* White background for items */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.forecast-item:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.forecast-item-title {
+    font-weight: 300; /* Light font weight */
+    font-size: 1.1rem; /* Medium font size */
+    color: #4a5568; /* Dark gray color for item title */
+}
+
+.forecast-icon {
+    width: 60px; /* Size of the icon */
+    margin: 8px 0;
+}
+
+.forecast-temp {
+    font-weight: bold;
+    font-size: 1.5rem; /* Larger font size for temperature */
+    color: #2c5282; /* Darker blue for temperature */
+}
